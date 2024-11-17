@@ -13,7 +13,7 @@
   "dependencies": {
     "@apollo/server": "^4.11.2",
     "graphql": "^16.9.0",
-    "micro-cors": "^2.0.0",
+    "micro-cors": "^0.1.1",
     "nodemon": "^3.1.7"
   }
 }
