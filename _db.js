@@ -9,6 +9,7 @@ let games = [
     price: 19.99,
     genre: ['Action', 'RPG', 'Adventure'],
     isAdminLiked: true,
+    image: 'https://i.ibb.co/TK7SpV6/the-elder-scrolls-v-skyrim.webp'
   },
   {
     id: '2',
@@ -18,6 +19,7 @@ let games = [
     price: 29.99,
     genre: ['Sandbox', 'Survival', 'Adventure'],
     isAdminLiked: false,
+    image: 'https://i.ibb.co/XXqfnTb/pixlr-image-generator-3d9f8b96-41db-41e3-af1b-6b0f42f4c9ca.webp'
   },
   {
     id: '3',
@@ -27,6 +29,7 @@ let games = [
     price: 24.99,
     genre: ['Action', 'Adventure'],
     isAdminLiked: false,
+    image: 'https://i.ibb.co/Xk21bHG/batman-arkham-knight.webp'
   },
   {
     id: '4',
@@ -36,6 +39,7 @@ let games = [
     price: 18.99,
     genre: ['First-Person Shooter', 'Action'],
     isAdminLiked: true,
+    image: 'https://i.ibb.co/Y3P2Bfm/doom.webp'
   },
   {
     id: '5',
@@ -45,6 +49,7 @@ let games = [
     price: 14.99,
     genre: ['Battle Royale', 'Survival', 'Action'],
     isAdminLiked: true,
+    image: 'https://i.ibb.co/hFvwGyg/pubg.webp'
   },
   {
     id: '6',
@@ -54,6 +59,7 @@ let games = [
     price: 19.59,
     genre: ['Sports', 'Racing', 'Multiplayer'],
     isAdminLiked: false,
+    image: 'https://i.ibb.co/5cxM8SH/rocket-league.webp'
   },
   {
     id: '7',
@@ -63,15 +69,17 @@ let games = [
     price: 24.99,
     genre: ['Action', 'Adventure', 'Historical'],
     isAdminLiked: false,
+    image: 'https://i.ibb.co/D53n9x7/assassins-creed.webp'
   },
   {
     id: '8',
     title: 'Counter-Strike 2',
-    description: 'Counter-Strike 2 is a multiplayer tactical first-person shooter developed by Valve Corporation. Released in 2023, it is the successor to Counter-Strike: Global Offensive. The game pits two teams, the Counter-Terrorists and the Terrorists, against each other in various objective-based game modes. The primary game modes include Competitive and Premier, where teams compete to complete objectives such as defusing bombs or rescuing hostages. The game features significant technical improvements, including a move to the Source 2 engine, enhanced graphics, and new gameplay mechanics like volumetric smoke physics. Players can purchase weapons and equipment between rounds, and the game emphasizes strategic team play and quick reflexes. Available on PC, Counter-Strike 2 offers a fast-paced and responsive gameplay experience[4][5][3].',
+    description: 'Counter-Strike 2 is a multiplayer tactical first-person shooter developed by Valve Corporation. Released in 2023, it is the successor to Counter-Strike: Global Offensive. The game pits two teams, the Counter-Terrorists and the Terrorists, against each other in various objective-based game modes. The primary game modes include Competitive and Premier, where teams compete to complete objectives such as defusing bombs or rescuing hostages. The game features significant technical improvements, including a move to the Source 2 engine, enhanced graphics, and new gameplay mechanics like volumetric smoke physics. Players can purchase weapons and equipment between rounds, and the game emphasizes strategic team play and quick reflexes. Available on PC, Counter-Strike 2 offers a fast-paced and responsive gameplay experience.',
     platform: ['PC'],
-    price: 0.00, 
+    price: 0.00,
     genre: ['First-Person Shooter', 'Tactical', 'Multiplayer'],
     isAdminLiked: true,
+    image: 'https://i.ibb.co/8BzqDqM/cs2.webp'
   },
   {
     id: '9',
@@ -81,6 +89,7 @@ let games = [
     price: 29.49,
     genre: ['Life Simulation', 'Sandbox'],
     isAdminLiked: false,
+    image: 'https://i.ibb.co/XFbY6DZ/sims.webp'
   },
   {
     id: '10',
@@ -90,6 +99,7 @@ let games = [
     price: 0.00,
     genre: ['Strategy', 'Multiplayer'],
     isAdminLiked: false,
+    image: 'https://i.ibb.co/F5cMgGw/dota2.webp'
   },
   {
     id: '11',
@@ -99,6 +109,7 @@ let games = [
     price: 24.99,
     genre: ['Action', 'Adventure', 'Stealth'],
     isAdminLiked: true,
+    image: 'https://i.ibb.co/FbmHmbh/metal-gear-solid.webp'
   },
   {
     id: '12',
@@ -108,60 +119,62 @@ let games = [
     price: 8.99,
     genre: ['RPG', 'First-Person Shooter', 'Horror'],
     isAdminLiked: true,
+    image: 'https://i.ibb.co/TvkvQ5P/system-shock2.webp'
   }
 ];
 
 let users = [
-  { id: '1', username: 'Ivan Ivanov', verified: true },
-  { id: '2', username: 'stalker2020', verified: false },
-  { id: '3', username: 'Maria Petrova', verified: true },
-  { id: '4', username: 'hunter', verified: false },
-  { id: '5', username: 'Sergey Kuznetsov', verified: true },
-  { id: '6', username: 'Emily Johnson', verified: false },
-  { id: '7', username: 'Olga Sokolova', verified: true },
-  { id: '8', username: 'Michael Brown', verified: false },
-  { id: '9', username: 'Natalia Ivanova', verified: true },
-  { id: '10', username: 'ozon671games', verified: false },
-  { id: '11', username: 'Elena Kuznetsova', verified: true },
-  { id: '12', username: 'James Miller', verified: false },
-  { id: '13', username: 'Tatiana Petrova', verified: true },
-  { id: '14', username: 'Robert Wilson', verified: false },
-  { id: '15', username: 'Anastasia Sokolova', verified: true },
-  { id: '16', username: 'Richard Moore', verified: false },
-  { id: '17', username: 'Ekaterina Ivanova', verified: true },
-  { id: '18', username: 'Charles Taylor', verified: false },
-  { id: '19', username: 'Anna Kuznetsova', verified: true },
-  { id: '20', username: 'Joseph Anderson', verified: false },
-  { id: '21', username: 'Victoria Petrova', verified: true },
-  { id: '22', username: 'Thomas Thomas', verified: false },
-  { id: '23', username: 'Sofia Sokolova', verified: true },
-  { id: '24', username: 'Christopher Jackson', verified: false },
-  { id: '25', username: 'Alex Hunter', verified: true },
-  { id: '26', username: 'Lena Stalker', verified: false },
-  { id: '27', username: 'Max TOP AWP', verified: true },
-  { id: '28', username: 'Kate Gamer', verified: false },
-  { id: '29', username: 'Ivan Pro', verified: true },
-  { id: '30', username: 'Olga Master', verified: false },
-  { id: '31', username: 'Sergey Ninja', verified: true },
-  { id: '32', username: 'Emily Warrior', verified: false },
-  { id: '33', username: 'Michael Mage', verified: true },
-  { id: '34', username: 'Natalia Archer', verified: false },
-  { id: '35', username: 'James Rogue', verified: true },
-  { id: '36', username: 'Tatiana Healer', verified: false },
-  { id: '37', username: 'Robert Tank', verified: true },
-  { id: '38', username: 'Anastasia Assassin', verified: false },
-  { id: '39', username: 'Richard Paladin', verified: true },
-  { id: '40', username: 'Ekaterina Druid', verified: false },
-  { id: '41', username: 'Charles Shaman', verified: true },
-  { id: '42', username: 'Anna Bard', verified: false },
-  { id: '43', username: 'Joseph Warlock', verified: true },
-  { id: '44', username: 'Victoria Monk', verified: false },
-  { id: '45', username: 'Thomas Priest', verified: true },
-  { id: '46', username: 'Sofia DeathKnight', verified: false },
-  { id: '47', username: 'Christopher DemonHunter', verified: true },
-  { id: '48', username: 'Alex Hunter', verified: false },
-  { id: constants.adminId, username: 'ADMIN', verified: true },
+  { id: '1', username: 'Ivan Ivanov', verified: true, avatar: 'https://i.ibb.co/zf3JN7j/1.webp' },
+  { id: '2', username: 'killer1408', verified: false, avatar: 'https://i.ibb.co/m9XW0Mm/2.webp' },
+  { id: '3', username: 'Maria Petrova', verified: true, avatar: 'https://i.ibb.co/SNvwXP8/3.webp' },
+  { id: '4', username: 'hunter', verified: false, avatar: 'https://i.ibb.co/CJg4zqH/4.webp' },
+  { id: '5', username: 'Sergey Kuznetsov', verified: true, avatar: 'https://i.ibb.co/3YmkwHT/5.webp' },
+  { id: '6', username: 'ghost', verified: false, avatar: 'https://i.ibb.co/3pw8Z6x/6.webp' },
+  { id: '7', username: 'Olga Sokolova', verified: true, avatar: 'https://i.ibb.co/p1QMWcc/7.webp' },
+  { id: '8', username: 'CREEP', verified: false, avatar: 'https://i.ibb.co/BGys4g3/8.webp' },
+  { id: '9', username: 'Natalia Ivanova', verified: true, avatar: 'https://i.ibb.co/s5WvQDQ/9.webp' },
+  { id: '10', username: 'NinjaAssassin', verified: false, avatar: 'https://i.ibb.co/K5bVSqF/10.webp' },
+  { id: '11', username: 'Elena Kuznetsova', verified: true, avatar: 'https://i.ibb.co/VN0k73g/11.webp' },
+  { id: '12', username: 'Frostbite', verified: false, avatar: 'https://i.ibb.co/5BV2kqD/12.webp' },
+  { id: '13', username: 'Tatiana Petrova', verified: true, avatar: 'https://i.ibb.co/pZsyBH5/13.webp' },
+  { id: '14', username: 'ShadowStriker', verified: false, avatar: 'https://i.ibb.co/kgQK7B8/14.webp' },
+  { id: '15', username: 'Anastasia Sokolova', verified: true, avatar: 'https://i.ibb.co/L5rm6hh/15.webp' },
+  { id: '16', username: 'Viper', verified: false, avatar: 'https://i.ibb.co/tLhnhHm/16.webp' },
+  { id: '17', username: 'Ekaterina Ivanova', verified: true, avatar: 'https://i.ibb.co/s2r9LJG/17.webp' },
+  { id: '18', username: 'DarkKnight', verified: false, avatar: 'https://i.ibb.co/YkRRjHS/18.webp' },
+  { id: '19', username: 'Anna Kuznetsova', verified: true, avatar: 'https://i.ibb.co/R26jWCY/19.webp' },
+  { id: '20', username: 'Phantom', verified: false, avatar: 'https://i.ibb.co/CJ0rJgk/20.webp' },
+  { id: '21', username: 'Victoria Petrova', verified: true, avatar: 'https://i.ibb.co/KhGHkwK/21.webp' },
+  { id: '22', username: 'Warlock', verified: false, avatar: 'https://i.ibb.co/GxsVz1z/22.webp' },
+  { id: '23', username: 'Sofia Sokolova', verified: true, avatar: 'https://i.ibb.co/tCVn3ZS/23.webp' },
+  { id: '24', username: 'Reaper', verified: false, avatar: 'https://i.ibb.co/YZSWwyZ/24.webp' },
+  { id: '25', username: 'Alex Hunter', verified: true, avatar: 'https://i.ibb.co/VCZGF5M/25.webp' },
+  { id: '26', username: 'VengefulSpirit', verified: false, avatar: 'https://i.ibb.co/NywS0yt/26.webp' },
+  { id: '27', username: 'Max TOP AWP', verified: true, avatar: 'https://i.ibb.co/SyRjz4p/27.webp' },
+  { id: '28', username: 'DragonFly', verified: false, avatar: 'https://i.ibb.co/NZdN7Lg/28.webp' },
+  { id: '29', username: 'Ivan Pro', verified: true, avatar: 'https://i.ibb.co/rMb6VFB/29.webp' },
+  { id: '30', username: 'ShadowWalker', verified: false, avatar: 'https://i.ibb.co/1Ljnf2Z/30.webp' },
+  { id: '31', username: 'Sergey Ninja', verified: true, avatar: 'https://i.ibb.co/Q9Ykyqs/31.webp' },
+  { id: '32', username: 'DarkPhoenix', verified: false, avatar: 'https://i.ibb.co/zQ8N5Fg/32.webp' },
+  { id: '33', username: 'Michael Mage', verified: true, avatar: 'https://i.ibb.co/jgStTFQ/33.webp' },
+  { id: '34', username: 'Natalia Archer', verified: false, avatar: 'https://i.ibb.co/zn84mGc/34.webp' },
+  { id: '35', username: 'James Rogue', verified: true, avatar: 'https://i.ibb.co/CV59njx/35.webp' },
+  { id: '36', username: 'StormBringer', verified: false, avatar: 'https://i.ibb.co/SVjbDfz/36.webp' },
+  { id: '37', username: 'Robert Tank', verified: true, avatar: 'https://i.ibb.co/XxQ9m4S/37.webp' },
+  { id: '38', username: 'Anastasia Assassin', verified: false, avatar: 'https://i.ibb.co/BwXrP1d/38.webp' },
+  { id: '39', username: 'Richard Paladin', verified: true, avatar: 'https://i.ibb.co/B3DdNqr/39.webp' },
+  { id: '40', username: 'Ekaterina Druid', verified: false, avatar: 'https://i.ibb.co/McyK2F9/40.webp' },
+  { id: '41', username: 'Charles Shaman', verified: true, avatar: 'https://i.ibb.co/TtmM1F5/41.webp' },
+  { id: '42', username: 'Anna Bard', verified: false, avatar: 'https://i.ibb.co/5kZZrSN/42.webp' },
+  { id: '43', username: 'Joseph Warlock', verified: true, avatar: 'https://i.ibb.co/DQNSn7V/43.webp' },
+  { id: '44', username: 'Victoria Monk', verified: false, avatar: 'https://i.ibb.co/2K0LZyW/44.webp' },
+  { id: '45', username: 'Thomas Priest', verified: true, avatar: 'https://i.ibb.co/SvZJgTg/45.webp' },
+  { id: '46', username: 'Sofia DeathKnight', verified: false, avatar: 'https://i.ibb.co/wCRgR0D/46.webp' },
+  { id: '47', username: 'Christopher DemonHunter', verified: true, avatar: 'https://i.ibb.co/2N2R8J4/47.webp' },
+  { id: '48', username: 'Alex Hunter', verified: false, avatar: 'https://i.ibb.co/LSNGVdS/48.webp' },
+  { id: constants.adminId , username: 'ADMIN', verified: true, avatar: 'https://i.ibb.co/NLBsZqr/ADMIN.webp' },
 ];
+
 
 let reviews = [
   { id: '1', rating: 5, content: 'Amazing game!', user_id: '1', game_id: '1' },

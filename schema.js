@@ -5,6 +5,7 @@ export const typeDefs = `#graphql
     description: String!
     price: Float!
     genre: [String!]!
+    image: String!
     isAdminLiked: Boolean!
     platform: [String!]!
     reviews: [Review]
