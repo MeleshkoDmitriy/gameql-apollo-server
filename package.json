@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "micro"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@apollo/server": "^4.11.2",
     "graphql": "^16.9.0",
+    "micro-cors": "^2.0.0",
     "nodemon": "^3.1.7"
   }
 }
