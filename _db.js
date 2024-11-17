@@ -140,7 +140,7 @@ let users = [
   { id: '14', username: 'ShadowStriker', verified: false, avatar: 'https://i.ibb.co/kgQK7B8/14.webp' },
   { id: '15', username: 'Anastasia Sokolova', verified: true, avatar: 'https://i.ibb.co/L5rm6hh/15.webp' },
   { id: '16', username: 'Viper', verified: false, avatar: 'https://i.ibb.co/tLhnhHm/16.webp' },
-  { id: '17', username: 'Ekaterina Ivanova', verified: true, avatar: 'https://i.ibb.co/s2r9LJG/17.webp' },
+  { id: '17', username: 'Ivanov', verified: true, avatar: 'https://i.ibb.co/s2r9LJG/17.webp' },
   { id: '18', username: 'DarkKnight', verified: false, avatar: 'https://i.ibb.co/YkRRjHS/18.webp' },
   { id: '19', username: 'Anna Kuznetsova', verified: true, avatar: 'https://i.ibb.co/R26jWCY/19.webp' },
   { id: '20', username: 'Phantom', verified: false, avatar: 'https://i.ibb.co/CJ0rJgk/20.webp' },
