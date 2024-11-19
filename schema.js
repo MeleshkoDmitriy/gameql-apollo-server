@@ -4,11 +4,11 @@ export const typeDefs = `#graphql
     title: String!
     description: String!
     price: Float!
-    genre: [String!]!
+    genres: [String!]!
     image: String!
     isAdminLiked: Boolean!
-    platform: [String!]!
-    reviews: [Review]
+    platforms: [String!]!
+    reviews: [Review]!
   }
   type Review {
     id: ID!
@@ -20,7 +20,7 @@ export const typeDefs = `#graphql
   type User {
     id: ID!
     username: String!
-    verified: Boolean!
+    isVerified: Boolean!
     reviews: [Review!]
     avatar: String!
   }
