@@ -57,7 +57,12 @@ export const resolvers = {
       };
 
       db.reviews.push(newReview);
-      return newReview;
+
+      return {
+        ...newReview,
+        game: db.games.find((game) => game.id === review.gameId),
+        user: db.users.find((user) => user.id === constants.adminId)
+      };
     },
     likeGameByAdmin(_, { id }) {
       db.games = db.games.map((game) => {
