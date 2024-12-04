@@ -9,6 +9,9 @@ export const resolvers = {
     game(_, args) {
       return db.games.find((game) => game.id === args.id);
     },
+    likedGames() {
+      return db.games.filter((game) => game.isAdminLiked);
+    },
     users() {
       return db.users;
     },
